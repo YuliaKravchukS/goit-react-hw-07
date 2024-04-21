@@ -2,7 +2,7 @@ import css from "./Contact.module.css";
 import { HiUser } from "react-icons/hi";
 import { FaPhoneAlt } from "react-icons/fa";
 import { useDispatch } from "react-redux";
-import { deleteContact } from "../../redux/contactsSlice";
+import { deleteContact } from "../../redux/contactsOps";
 const Contact = ({ user }) => {
   const dispatch = useDispatch();
   //  const users = useSelector(selectContacts);
